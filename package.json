@@ -1,0 +1,27 @@
+{
+  "name": "goertzel",
+  "description": "Fast frequency detection using the Goertzel algorithm",
+  "version": "3.0.1",
+  "repository": {
+    "url": "git://github.com/noffle/goertzel.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js && standard"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "5.4.1",
+    "tape": "4.4.0"
+  },
+  "keywords": [
+    "goertzel",
+    "frequency",
+    "fft",
+    "dft",
+    "fourier",
+    "detect",
+    "detection"
+  ],
+  "license": "MIT"
+}
